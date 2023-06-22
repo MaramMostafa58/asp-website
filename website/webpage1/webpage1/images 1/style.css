@@ -1,0 +1,117 @@
+ *{
+    
+    margin:0;
+    padding: 0;
+    background-color:#040d15;
+}
+/*
+home 2
+*/
+/*header*/
+.cart{
+float:right;
+}
+.toplinks ul li{
+float: right;
+list-style: none;
+text-decoration: none;
+display:inline-block;/*3mlnahom horiziontal*/
+font-size: 30px;
+margin-right: 20px;/* space around it*/      
+}
+.toplinks ul li a{
+color:#49c5b6;
+text-decoration: none;
+}
+a:hover{
+    color:white;
+}
+.logo{
+    width: 350px;
+    height:150px;
+}
+/*search*/
+.search input{height:35px; background-color:white; }
+.search input placeholder{color:#49c5b6; font-size:20px;}
+.search  button{background-color:#49c5b6; color:white; width:50px; height:40px; cursor:pointer;}
+/*nav mmkn nshelo*/
+hr{
+height:5px;
+}
+/*article of home page*/
+.h1{
+font-size:45px;
+color: #49c5b6;  
+}
+.p2{
+font-size:40px;
+color: white;   
+}
+a{
+text-decoration-color:#49c5b6 ;
+}
+
+/* form for whole project*/
+.form{
+margin: auto;
+max-width: 350px;
+padding: 10px;
+border-radius: 8px;
+border-style: groove;
+color: #49c5b6 ;
+}
+.form label{
+font-size:20px;
+}
+.form  input
+{width: 90%;
+box-sizing: border-box 90%;
+border-radius: 4px;
+padding:10px; 
+margin:1opx 0;
+color:#49c5b6  ;
+background-color:white; 
+}
+/* all buttons and submit of any form */
+ input[type=submit], input[type=reset] {
+background-color: #49c5b6;
+border: none;
+color: white;
+padding: 16px 32px; 
+margin: 6px 3px;
+cursor: pointer;
+} 
+/*products tabls price*/
+/* sort by filter*/
+.left{color:#49c5b6;}
+.left label{font-size:20px; color:#49c5b6; }
+.left select{background-color:white; color:#49c5b6; font-size:18px;}
+.left option{font-size:18px;}
+.right{float: right; color:#49c5b6;   }
+.right label{font-size:20px; color:#49c5b6; }
+.right select {background-color:white; color:#49c5b6; font-size:18px;}
+.right option{font-size:18px;}
+.product table,td {text-align:center; padding:20px;  }
+.lproduct table,td {text-align:center; padding-right:5px; padding-left:5px; }
+pre{color:#49c5b6; font-size: 23px ;}
+span{
+    color:white;
+    font-weight:  bold;
+}
+.add{ 
+    width:150px;
+    height:50px;
+}
+.timage{
+    width:300px;
+    height:200px;
+}
+
+
+
+
+
+
+
+
+
